@@ -1,8 +1,5 @@
-let name = ' Ummu';
-let price = `hello
-
-
-
-
-${name}`;
-console.log(price);
+let person = {
+    firstname: 'Mariam',
+    lastname: 'Abdallah'
+};
+console.log(person.firstname);
