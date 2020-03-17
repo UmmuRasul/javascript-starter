@@ -5,7 +5,7 @@
 
 
 learning the basic of Javascript
-string
-boolean
-numbers
-condition statement
+-string
+-boolean
+-numbers
+-condition statement
