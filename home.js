@@ -1,10 +1,5 @@
-// let i = 4;
-// do {
-//     console.log(i);
-//     i--;
-// } while (i < 5);
-
-let myFunction = function() {
-    console.log('the massages');
+function getSecretCode(value) {
+    let code = value * 42;
+    return code;
 }
-myFunction();
+showMessage(getSecretCode(2));
