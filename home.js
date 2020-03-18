@@ -11,3 +11,6 @@ function getSecretCode(value) {
 }
 let secretCode = getSecretCode(2)
 showMessage(secretCode);
+
+
+changePercentOff(30);
