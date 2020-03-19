@@ -1,10 +1,10 @@
-let mySymbol = Symbol();
 let person = {
     name: 'Mariam',
     age: 40,
     partTime: false,
-    [mySymbol]: 'secretInformation'
+    showInfo: function(realAge) //method
+        {
+            showMessage(this.name + ' is   ' + realAge + ' years old'); //'this' refers to the current object
+        }
 };
-person.age = 49; //dot notation
-//person['age'] = 47; //sq bracket notation
-showMessage(person.age); //the dot syntax
+person.showInfo(45);
