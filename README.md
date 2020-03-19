@@ -24,3 +24,9 @@ Now what's a bundler?
 Think about it this way - you can write your app in many different js files. The bundler will take all the js files and squeeze them into one file. Suppose we call that file bundle.js
 Now from our HTML file, we can load only the bundle.js instead all the the files one by one.
 While using a bundler, it's easier to import and export functions and variables from file to file
+
+
+
+npm install -g eslint   //installing eslint in vs code
+eslint --init   //for configuration
+then answer Qns that follows
