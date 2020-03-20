@@ -36,3 +36,6 @@ npm install -g npm //installing npm globall
 sudo npm i -g npm
 
 npm install --save-dev start-server-and-test
+
+
+delt with naming converntion on 'id' can only use all lower cases without any special charaters or spacing
