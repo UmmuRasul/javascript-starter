@@ -1,8 +1,3 @@
-// let now = new Date();
-// showMessage(now.toDateString());
-
-//showMessage(Math.abs(-34));
-//showMessage(Math.random());
-
-let a = 'Mariam';
-showMessage(a.charAt(2));
+const header = document.getElementById('message');
+header.style.color = 'blue';
+header.style.fontWeight = '100';
