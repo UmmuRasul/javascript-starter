@@ -3,7 +3,7 @@
 // header.style.fontWeight = '100';
 
 
-const button = document.getElementById('see-review');
+const button = document.getElementById('sreveiw');
 
 button.addEventListener('click', function() {
     console.log('click');
