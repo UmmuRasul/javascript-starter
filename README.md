@@ -29,4 +29,10 @@ While using a bundler, it's easier to import and export functions and variables 
 
 npm install -g eslint   //installing eslint in vs code
 eslint --init   //for configuration
-then answer Qns that follows
+then answer Qns that followed for completing configuration
+
+npm install -g npm //installing npm globall
+
+sudo npm i -g npm
+
+npm install --save-dev start-server-and-test
